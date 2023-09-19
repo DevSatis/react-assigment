@@ -1,0 +1,38 @@
+.search {
+  border: 1px solid black;
+  background-color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 80%;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+button{
+  background-color: #fff;
+  border: none;
+}
+.dropdown {
+  margin-bottom: 1rem;
+  /* display: flex; */
+  top: 55px;
+  position: absolute;
+  background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 99;
+  border: 1px solid gray;
+  width: 312px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+li {
+  padding: 8px;
+  cursor: pointer;
+}
